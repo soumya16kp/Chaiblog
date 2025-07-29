@@ -1,0 +1,35 @@
+/* Select.css */
+
+.select-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .select-label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .select-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+    transition: border 0.3s ease;
+  }
+  
+  .select-input:hover {
+    border-color: #007bff;
+  }
+  
+  .select-input:focus {
+    border-color: #0056b3;
+    outline: none;
+  }
+  
